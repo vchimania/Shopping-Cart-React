@@ -10,7 +10,8 @@ h1 {
   font-size: 1.5rem;
 }
 h2 {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
+  text-align: center;
 }
 h3 {
   font-size: 1rem;
@@ -66,4 +67,11 @@ button.badge {
   border: none;
   color: #ffffff;
   width: 1.5rem;
+}
+.container{
+  width: 800px;
+  display: grid;
+  grid-template-columns: 200px  200px  200px;
+  grid-template-rows: 200px  200px  200px;
+  grid-gap:85px ;
 }
